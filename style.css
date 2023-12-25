@@ -51,6 +51,7 @@ h2 {
     box-shadow: 0 0 3px;
     cursor: pointer;
     opacity:90%;
+    user-select: none;
 }
 
 #increment-btn {
@@ -86,6 +87,7 @@ h2 {
     font-weight: bolder;
     color:hsl(350, 10%, 90%);
     opacity: 80%;
+    user-select: none;
     
 }
 
@@ -110,6 +112,7 @@ hr {
     opacity: 80%;
     padding:.2rem 0.5rem;
     box-shadow: 0 0 10px white;
+    user-select: none;
 }
 
 #reset-btn:active{
