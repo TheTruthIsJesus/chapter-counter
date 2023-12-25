@@ -1,0 +1,125 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', 'Helvetica Neue', Oxygen, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, Cantarell, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: midnightblue;
+    margin-top:auto;
+}
+
+.container {
+    width:100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    z-index: -1;
+}
+
+
+img {
+    opacity: 30%;
+    z-index: -1;
+    border-radius: 50%;
+    box-shadow: 0 0 17px blue;
+    filter:blur(2px);
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight:bolder;
+}
+
+#increment-btn, #decrement-btn {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    width: 120px;
+    margin-bottom: 5px;
+    border-radius: 30px;
+    box-shadow: 0 0 3px;
+    cursor: pointer;
+    opacity:90%;
+}
+
+#increment-btn {
+    background: lightgreen;
+    color:green;
+    border:4px double midnightblue;
+    margin-left:20px;
+}
+
+#increment-btn:active {
+    transform: translateY(-8px);
+    transition: all 50ms ease-out;
+}
+
+#decrement-btn:active {
+    transform: translateY(-8px);
+    transition: all 50ms ease-out;
+}
+
+#decrement-btn{
+    background:tomato;
+    color:darkred;
+    border:4px double midnightblue;
+}
+
+#save-btn {
+    background: darkblue;
+    border-radius: 50%;
+    font-family: helvetica;
+    font-size:.7rem;
+    padding:.7rem .4rem;
+    border: 3px solid wheat;
+    font-weight: bolder;
+    color:hsl(350, 10%, 90%);
+    opacity: 80%;
+    
+}
+
+#save-btn:active{
+    transform: scale(120%);
+    transform:skewX(-70deg);
+    background-color:purple;
+    transition-duration: 30ms;
+}
+
+hr {
+    width:300px;
+    border: 3px double midnightblue;
+}
+
+#reset-btn{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border:none;
+    background:grey;
+    color:white;
+    border-radius: 10px;
+    opacity: 80%;
+    padding:.2rem 0.5rem;
+    box-shadow: 0 0 10px white;
+}
+
+#reset-btn:active{
+    transform:rotate(-360deg);
+    transition-duration: .8s;
+}
+
+#clear {
+    font-family:Courier New, Courier, monospace;
+    font-size: 12px;
+    color:cornflowerblue;
+    font-weight: bolder;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Practice (Chapter Counter)</title>
+    <link rel="stylesheet" href="js-practice.css">
+</head>
+<body>
+          
+    <div class="container">
+        <img src="https://media.giphy.com/media/xT77Y1T0zY1gR5qe5O/giphy.gif">
+    </div>
+    
+    <p>How many bible chapters did you read?</p>
+    <h1>Number of Chapters<br>Read This Session:</h1>
+    <h2 id="count-el">0</h2>
+    
+    <button id="decrement-btn" onclick="decrement()">-1</button>
+    <button id="increment-btn" onclick="increment()">+1</button>
+    
+    <br>
+    <button id="save-btn" onclick="save()">Remember</button>
+    <hr>
+    <p id="save-el">Previous study sessions: </p>
+    <button id="reset-btn" onclick="reset()">Reset Saved Sessions</button>
+    <p id="clear"></p>
+    <hr>
+    
+    <script src="js-practice.js">
+    </script>
+</body>
+</html>
